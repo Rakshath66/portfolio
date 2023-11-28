@@ -21,7 +21,7 @@ function goToURL() {
 
 //open chat-doc
 function letsChatbro() {
-  window.open('./Images/letschat.jpeg');
+  window.open('./images/letschat.jpeg');
 }
 
 // Side NavIgation Menu JS Code
