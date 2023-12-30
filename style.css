@@ -20,10 +20,10 @@
     border-radius: 12px;
     transition: all 0.3s ease;
 }
-
 ::-webkit-scrollbar-thumb:hover {
     background: #ffb048;
 }
+
 /* navbar styling */
 nav{
   position: fixed;
@@ -117,13 +117,22 @@ nav.sticky .menu-btn{
   background-attachment: fixed;
   font-family: 'Ubuntu', sans-serif;
 }
-.home .home-content{
+.home{
   width: 90%;
   height: 100%;
   margin: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.main-div{
+  width: 90%;
+  height: 100%;
+  margin-top: 140px;
+  margin-bottom: 120px;
+  display: flex;
+  justify-content: space-between;
 }
 .home .text-one{
   font-size: 25px;
@@ -366,6 +375,10 @@ section .button button:hover{
   margin: auto;
 }
 
+.desc{
+  color: black;
+}
+
 /* Footer CSS */
 footer{
   background: #ffb048;
@@ -507,4 +520,16 @@ footer .text span a:hover{
     font-size: 50px;
     color: #ffb048;
   }
+}
+
+.svg-image{
+  width: 50px;
+}
+
+.svg-div{
+  width: 45%;
+}
+
+.home-content {
+  margin-top: 104px;
 }
