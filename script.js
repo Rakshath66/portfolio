@@ -16,7 +16,7 @@ window.onscroll = function() {
 
 //open resume-doc
 function goToURL() {
-  window.open('./Rakshath_U_Shetty_ENG20CS0278_SDE.pdf');
+  window.open('./resume.pdf');
 }
 
 //open chat-doc
