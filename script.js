@@ -16,7 +16,7 @@ window.onscroll = function() {
 
 //open resume-doc
 function goToURL() {
-  window.open('./resume.pdf', "_blank");
+  window.open('https://drive.google.com/file/d/1B43erot9_ulAUMTnT_7APchOECXGTU7l/view?usp=sharing', "_blank");
 }
 
 //open chat-doc
