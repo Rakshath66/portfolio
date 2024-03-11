@@ -16,7 +16,7 @@ window.onscroll = function() {
 
 //open resume-doc
 function goToURL() {
-  window.open('https://drive.google.com/file/d/1B43erot9_ulAUMTnT_7APchOECXGTU7l/view?usp=sharing', "_blank");
+  window.open('https://drive.google.com/file/d/1yyL3nvsOiLnmI6QgdR9Hh6oR8GzDaU7a/view?usp=sharing', "_blank");
 }
 
 //open chat-doc
