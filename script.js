@@ -16,12 +16,12 @@ window.onscroll = function() {
 
 //open resume-doc
 function goToURL() {
-  window.open('./resume.pdf');
+  window.open('./resume.pdf', "_blank");
 }
 
 //open chat-doc
 function letsChatbro() {
-  window.open('./Images/letschat.jpeg');
+  window.open('./Images/letschat.jpeg', "_blank");
 }
 
 // Side NavIgation Menu JS Code
