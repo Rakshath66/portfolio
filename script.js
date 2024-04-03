@@ -14,6 +14,17 @@ window.onscroll = function() {
 
 }
 
+
+$( ".change" ).on("click", function() {
+    if( $( "body" ).hasClass( "dark" )) {
+        $( "body" ).removeClass( "dark" );
+        $( ".change" ).text( "OFF" );
+    } else {
+        $( "body" ).addClass( "dark" );
+        $( ".change" ).text( "ON" );
+    }
+});
+
 //open resume-doc
 function goToURL() {
   window.open('https://drive.google.com/file/d/190K1aaRMSdnNsGL5PuB1JjFYI0KIubns/view?usp=sharing', "_blank");
